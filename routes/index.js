@@ -35,13 +35,13 @@ knex('trail').insert({
     elev_gain: req.body.elev_gain
   })
   .then(function(trail) {
-      res.redirect(`/${trail.id}`);
+      res.redirect('/');
   });
 })
 
 
 router.put('/:id', function(req, res) {
-  console.log(req.body);
+
   knex('trail').where('id', req.params.id).update({
     name: req.body.name,
     distance: req.body.distance,
