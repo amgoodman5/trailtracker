@@ -1,8 +1,66 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+h1.title {
+    text-align: center;
+}
+nav {
+    color: rgba(0, 0, 0, 0.1)!important;
+    background-color: rgba(0, 102, 115, 0.94)!important;
 }
 
-a {
-  color: #00B7FF;
+  .teal.lighten-1 {
+      background-color: #DDE569 !important;
+  }
+  a.waves-effect.waves-light.btn-large {
+    background-color: #DDE569;
+}
+a#download-button {
+    color: #353E50;
+}
+
+.blue-grey.darken-1 {
+    background-color: rgba(84, 84, 76, 0.72)!important;
+}
+section#index-banner {
+    background-color: rgba(73, 82, 83, 0.52);
+}
+section.cardsbox {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(53, 62, 80, 0.13);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(255,255,255,.5) -2px, rgba(255,255,255,.5) 70px);
+}
+.side-nav {
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    background-color: rgba(64, 64, 62, 0.81);
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+@media only screen and (max-width: 601px) {
+.row .col.m6 {
+    width: 90%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
 }
