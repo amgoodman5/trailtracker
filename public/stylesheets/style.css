@@ -6,10 +6,30 @@ nav {
     color: rgba(0, 0, 0, 0.1)!important;
     background-color: rgba(0, 102, 115, 0.94)!important;
 }
+.input-field.col.s6 {
+    color: #ffab40;
 
-  .teal.lighten-1 {
-      background-color: #DDE569 !important;
-  }
+}
+section#form {
+    margin: 0 auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #353e50;
+    padding-left: 30%;
+}
+h1 {
+    margin-top: 0;
+
+    color: #DDE569;
+    font-size: 3.2rem;
+    line-height: 110%;
+    margin-bottom: 0;
+    /* margin: 2.1rem 0 1.68rem 0; */
+}
+.teal.lighten-1 {
+  background-color: #DDE569 !important;
+  color: #353e50;
+}
   a.waves-effect.waves-light.btn-large {
     background-color: #DDE569;
 }
